@@ -1,0 +1,203 @@
+{
+  "best_model": "Multinomial Naive Bayes",
+  "models": {
+    "Multinomial Naive Bayes": {
+      "cv_macro_f1_mean": 0.9966,
+      "cv_macro_f1_std": 0.0068,
+      "test_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "per_class": {
+        "legitimate": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 32
+        },
+        "phishing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 20
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 28
+        }
+      },
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          28
+        ]
+      ],
+      "classes": [
+        "legitimate",
+        "phishing",
+        "spam"
+      ]
+    },
+    "Logistic Regression": {
+      "cv_macro_f1_mean": 0.9944,
+      "cv_macro_f1_std": 0.0069,
+      "test_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "per_class": {
+        "legitimate": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 32
+        },
+        "phishing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 20
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 28
+        }
+      },
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          28
+        ]
+      ],
+      "classes": [
+        "legitimate",
+        "phishing",
+        "spam"
+      ]
+    },
+    "Support Vector Machine (Linear)": {
+      "cv_macro_f1_mean": 0.9972,
+      "cv_macro_f1_std": 0.0056,
+      "test_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "per_class": {
+        "legitimate": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 32
+        },
+        "phishing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 20
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 28
+        }
+      },
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          28
+        ]
+      ],
+      "classes": [
+        "legitimate",
+        "phishing",
+        "spam"
+      ]
+    },
+    "Random Forest": {
+      "cv_macro_f1_mean": 0.9888,
+      "cv_macro_f1_std": 0.0105,
+      "test_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "per_class": {
+        "legitimate": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 32
+        },
+        "phishing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 20
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 28
+        }
+      },
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          28
+        ]
+      ],
+      "classes": [
+        "legitimate",
+        "phishing",
+        "spam"
+      ]
+    }
+  },
+  "train_size": 320,
+  "test_size": 80
+}
